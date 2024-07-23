@@ -1,0 +1,97 @@
+.bg-image {
+	background-image: url('../assets/logo.png');
+	width: 500px;
+	height: 500px;
+	background-size: cover;
+	background-position: center;
+}
+
+.modal .modal-dialog {
+	max-width: 400px;
+}
+
+.modal .modal-header,
+.modal .modal-body,
+.modal .modal-footer {
+	padding: 20px 30px;
+}
+
+.modal .modal-content {
+	border-radius: 3px;
+	font-size: 14px;
+}
+
+.modal .modal-footer {
+	background: #ecf0f1;
+	border-radius: 0 0 3px 3px;
+}
+
+.modal .modal-title {
+	display: inline-block;
+}
+
+.modal .form-control {
+	border-radius: 2px;
+	box-shadow: none;
+	border-color: #dddddd;
+}
+
+.modal .btn {
+	border-radius: 2px;
+	min-width: 100px;
+}
+
+.modal form label {
+	font-weight: normal;
+}
+
+.modal .form-group {
+	padding: 5px 0;
+}
+
+body {
+	background-color: #f8f9fa;
+}
+
+table.table tr th:last-child {
+	width: 100px;
+}
+
+table.table-striped tbody tr:nth-of-type(odd) {
+	background-color: #fcfcfc;
+}
+
+table.table-striped.table-hover tbody tr:hover {
+	background: #f5f5f5;
+}
+
+table.table th image {
+	margin: 0 5px;
+	cursor: pointer;
+}
+
+table.table td a {
+	font-weight: bold;
+	color: #566787;
+	display: inline-block;
+	text-decoration: none;
+	outline: none !important;
+	padding: 0 !important;
+}
+
+
+div#is-relative{
+  position: relative;
+}
+
+/* El icono debe ser "position: absolute"
+ * Ademas le damos un "display: block" y lo posicionamos */
+#icon{
+  position: absolute;
+  display: block;
+  bottom: .5rem;
+  right: 1rem;
+  
+  user-select: none;
+  cursor: pointer;
+}
